@@ -1,0 +1,14 @@
+{
+  "X_train.npz": "scipy CSR sparse matrix; shape (246008, 307)",
+  "X_test.npz": "scipy CSR sparse matrix; shape (61503, 307)",
+  "X_train_pca.npy": "NumPy float array; shape (246008, 50)",
+  "X_test_pca.npy": "NumPy float array; shape (61503, 50)",
+  "y_train.npy": "NumPy int8 target; shape (246008,)",
+  "y_test.npy": "NumPy int8 target; shape (61503,)",
+  "applicant_ids_train.npy": "NumPy SK_ID_CURR array; shape (246008,)",
+  "applicant_ids_test.npy": "NumPy SK_ID_CURR array; shape (61503,)",
+  "preprocessor.joblib": "fitted sklearn ColumnTransformer; training data only",
+  "preprocessing_metadata.json": "split, target, placeholder, and feature metadata",
+  "feature_metadata.json": "numerical/categorical names and excluded identifiers",
+  "leakage_guard": "SK_ID_CURR and TARGET excluded from model inputs"
+}

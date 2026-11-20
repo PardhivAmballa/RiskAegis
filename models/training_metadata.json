@@ -1,0 +1,122 @@
+{
+  "random_state": 42,
+  "data_source": "data/processed/X_train.npz",
+  "train_rows": 246008,
+  "train_columns": 307,
+  "train_class_counts": {
+    "0": 226148,
+    "1": 19860
+  },
+  "models": {
+    "adaboost": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 82.616,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\adaboost.joblib",
+      "parameters": {
+        "estimator": null,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "random_state": 42
+      }
+    },
+    "gradient_boosting": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 186.266,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\gradient_boosting.joblib",
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "criterion": "deprecated",
+        "init": null,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_depth": 3,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 100,
+        "n_iter_no_change": null,
+        "random_state": 42,
+        "subsample": 1.0,
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "decision_tree": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 17.919,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\decision_tree.joblib",
+      "parameters": {
+        "class_weight": "balanced",
+        "max_depth": 8,
+        "min_samples_leaf": 20,
+        "random_state": 42
+      }
+    },
+    "random_forest": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 55.251,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\random_forest.joblib",
+      "parameters": {
+        "class_weight": "balanced_subsample",
+        "max_depth": 12,
+        "min_samples_leaf": 10,
+        "n_estimators": 150,
+        "n_jobs": -1,
+        "random_state": 42
+      }
+    },
+    "xgboost": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 4.883,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\xgboost.joblib",
+      "parameters": {
+        "objective": "binary:logistic",
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "n_estimators": 100,
+        "n_jobs": -1,
+        "random_state": 42,
+        "scale_pos_weight": 11.38710976837865
+      }
+    }
+  },
+  "pca": {
+    "method": "PCA randomized",
+    "n_components": 50,
+    "random_state": 42,
+    "explained_variance_ratio": 0.8569306459307099,
+    "training_fit_size": 50000,
+    "models": {
+      "adaboost": {
+        "status": "trained_and_loaded",
+        "duration_seconds": 135.271,
+        "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\adaboost_pca.joblib"
+      },
+      "gradient_boosting": {
+        "status": "trained_and_loaded",
+        "duration_seconds": 350.609,
+        "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\gradient_boosting_pca.joblib"
+      },
+      "decision_tree": {
+        "status": "trained_and_loaded",
+        "duration_seconds": 8.737,
+        "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\decision_tree_pca.joblib"
+      },
+      "random_forest": {
+        "status": "trained_and_loaded",
+        "duration_seconds": 22.791,
+        "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\random_forest_pca.joblib"
+      },
+      "xgboost": {
+        "status": "trained_and_loaded",
+        "duration_seconds": 1.635,
+        "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\xgboost_pca.joblib"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "method": "PCA randomized",
+  "n_components": 50,
+  "random_state": 42,
+  "explained_variance_ratio": 0.8569306459307099,
+  "training_fit_size": 50000,
+  "models": {
+    "adaboost": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 135.271,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\adaboost_pca.joblib"
+    },
+    "gradient_boosting": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 350.609,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\gradient_boosting_pca.joblib"
+    },
+    "decision_tree": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 8.737,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\decision_tree_pca.joblib"
+    },
+    "random_forest": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 22.791,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\random_forest_pca.joblib"
+    },
+    "xgboost": {
+      "status": "trained_and_loaded",
+      "duration_seconds": 1.635,
+      "artifact": "C:\\Users\\Pardh\\RiskAegis\\models\\xgboost_pca.joblib"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "baseline": [
+    "decision_tree.joblib",
+    "random_forest.joblib",
+    "adaboost.joblib",
+    "gradient_boosting.joblib",
+    "xgboost.joblib"
+  ],
+  "pca": [
+    "decision_tree_pca.joblib",
+    "random_forest_pca.joblib",
+    "adaboost_pca.joblib",
+    "gradient_boosting_pca.joblib",
+    "xgboost_pca.joblib"
+  ],
+  "pca_transformer": "pca.joblib",
+  "baseline_metadata": "training_metadata.json",
+  "pca_metadata": "pca_training_metadata.json",
+  "model_loading": "joblib.load(<artifact>)",
+  "baseline_input": "data/processed/X_test.npz",
+  "pca_input": "data/processed/X_test_pca.npy"
+}
